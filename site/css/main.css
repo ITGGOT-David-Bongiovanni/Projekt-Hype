@@ -1,0 +1,113 @@
+body{
+    height:100vh;
+    margin:0;
+}
+
+.wrapper {
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.start_nav {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid black;
+    background-color: turquoise;
+
+}
+
+.header_start {
+    background-color: green;
+    flex-grow: 1;
+}
+.misc_start {
+    background-color: blue; 
+    flex-grow: 2;
+    flex-direction: row;
+    display: flex;
+  
+}
+.purchase_box {
+    display: flex;
+    flex-direction: row;
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow: 1;
+}
+.console_box {
+    display: flex;
+    flex-direction: column;
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow:1;
+}
+
+.pc_box {
+    display: flex;
+    flex-direction: column;
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow: 1;
+}
+
+.pc_pic {
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow: 1;
+}
+
+.pc_purchase {
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow:1;
+}
+
+.console_pic {
+    width:50px;
+    height:100px;
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow: 1;
+}
+.console_purchase {
+    border: solid black 3px;
+    margin: 3px;
+    flex-grow:1;
+}
+
+
+.misc_box {
+    border: solid black 1px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.misc_header {
+    text-align: center;
+    flex-grow: 1;   
+}
+.misc_text {
+text-align: center;
+flex-grow: 4;
+}
+
+.PC_img {
+    object-fit:
+}
