@@ -1,6 +1,15 @@
 body{
     height:100vh;
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/Creatures.png");
+}
+.backgrundfarg {
+    background-image: url("../img/no_mans_sky_7.jpg");
+    height:100vh;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .wrapper {
@@ -8,35 +17,49 @@ body{
     display: flex;
     height: 100%;
     width: 100%;
-
+}
+.wrapper_about {
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
-.start_nav {
+.start_nav,.about_nav {
     display: flex;
     flex-direction: row;
-    background-color: pink;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
+    width: 500px;
+    background-color: rgba(135,135,135,0.4);
+    height:50px;
+    justify-content: space-around;
+    align-self: center;
+    margin-top:10px;
+    margin-bottom: 10px;
     
 }
-.nav{
-    text-align: center;
-    height: 50px;
-    width: 100px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border: solid black;
-    background-color: turquoise;
 
+nav a {
+    margin-top: 15px;
+    text-decoration:none;
 }
+
+
+
+
+
 
 .header_start {
-    background-color: green;
-    flex-grow: 1;
+   background-image: url("../img/nomanssky.png");
+   background-size: 100%;
+    flex-grow:2;
+   background-repeat:no-repeat;
+   background-size:cover;
+   
+    
 }
+
 .misc_start {
-    background-color: blue; 
+    
     flex-grow: 2;
     flex-direction: row;
     display: flex;
@@ -45,14 +68,14 @@ body{
 .purchase_box {
     display: flex;
     flex-direction: row;
-    border: solid black 3px;
+    
     margin: 3px;
     flex-grow: 1;
 }
 .console_box {
     display: flex;
     flex-direction: column;
-    border: solid black 3px;
+   
     margin: 3px;
     flex-grow:1;
 }
@@ -60,54 +83,109 @@ body{
 .pc_box {
     display: flex;
     flex-direction: column;
-    border: solid black 3px;
+   
     margin: 3px;
     flex-grow: 1;
 }
 
 .pc_pic {
-    border: solid black 3px;
+    display: flex;
+    
     margin: 3px;
-    flex-grow: 1;
+    justify-content: center;
 }
 
 .pc_purchase {
-    border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin: 3px;
     flex-grow:1;
 }
 
 .console_pic {
-    width:50px;
-    height:100px;
-    border: solid black 3px;
+    display: flex;
+
     margin: 3px;
-    flex-grow: 1;
+   justify-content: center;  
+    
+    
 }
+
+ 
 .console_purchase {
-    border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 3px;
     flex-grow:1;
 }
 
+.buy_now {
+    height: 75px;
+    width:200px;
+}
 
 .misc_box {
-    border: solid black 1px;
-    background-color: burlywood;
+    background-color: rgba(119,162,132,0.5);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    border-left: solid;
 }
 
 .misc_header {
-    text-align: center;
-    flex-grow: 1;   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
 }
 .misc_text {
 text-align: center;
-flex-grow: 4;
+flex-grow: 5;
 }
 
 .PC_img {
     object-fit:
+}
+
+.screenshot1 {
+    height:275px;
+    width:500px;
+    margin: 3px;
+}
+
+.about_picture2, .about_picture1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3px;
+}
+
+.trailer {
+    width:500px;
+    height: 275px;
+    margin: 3px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:275px;
+    width: 500px;
+    margin-left: 3px;
+    margin-bottom:5px;
+    background-color: rgba(200,247,105,0.5);
+    
+}
+.about_text {
+    
+    padding: 10px;
+
 }
